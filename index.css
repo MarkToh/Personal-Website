@@ -10,7 +10,8 @@
 #header {
   padding-top: 65px;
 
-  background-image: url("img/Sunset_Egypt.jpeg");
+  background-color: white;
+  background-image: url("img/smoke_black.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -33,25 +34,48 @@
 #prof_pic:hover {
     -webkit-transform:scale(1.12);
     transform:scale(1.12);
-   
 }
 
 #name {
   text-decoration: none;
-  color: white;
-
-  font-family: sans-serif;
-  font-weight: bolder;
+  color: black !important;
+  font-family: monospace !important;
+  font-weight: bolder !important;
 }
 
 #content  {
   margin-bottom: 0px!important;
   border-radius: 0px!important;
+  background-color: white;
 }
 
-#aboutme, #strada, #dota2  {
-  margin: 3% auto 3% auto;
-  text-align: left
+#child h5 {
+  font-family: monospace,sans-serif !important;
+}
+
+#child a {
+  color: black;
+  border-bottom: 1.5px dotted black;
+  text-decoration: none;
+}
+
+#child a:hover{
+  color: #778899;
+}
+
+#child p {
+  font-family: arial !important;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 25px;
+}
+
+.row img {
+  padding: 2em 0em 2em 0em;
 }
 
 #strada h5:hover{
